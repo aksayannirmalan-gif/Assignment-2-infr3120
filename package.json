@@ -2,15 +2,25 @@
   "name": "assignment2infr3120",
   "version": "1.0.0",
   "description": "",
-  "main": "webserver.js",
+  "keywords": [],
+  "homepage": "https://github.com/aksayannirmalan-gif/Assignment-2-infr3120#readme",
+  "bugs": {
+    "url": "https://github.com/aksayannirmalan-gif/Assignment-2-infr3120/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksayannirmalan-gif/Assignment-2-infr3120.git"
+  },
+  "license": "ISC",
+  "author": "Aksayan Nirmalan",
+  "type": "commonjs",
+  "main": "express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "webserver": "^5.0.1"
-  }
+    "connect": "^3.7.0",
+    "express": "^5.0.1"
+  },
+  "devDependencies": {}
 }
