@@ -1,0 +1,44 @@
+<!--had to seperate header, 
+footer, index and main nav 
+so it is easier to debug-->
+<%- include partials/header.ejs %>
+<!--this ppeice of the code inculdes 
+the other ejs files into this file so
+ they can be accessed by this files name-->
+<%- include partials/main_nav.ejs %>
+
+    <h1><%= title %></h1>
+ 
+
+<div class="left-column">
+    <figure>
+        <img src="/Assets/images/profile.jpg" alt="image will be uploaded soon"> 
+        <figcaption>
+            <h6>picture of myself</h6>
+        </figcaption>
+    </figure> 
+
+</div>
+            
+<div class="right-column">
+    <p>
+        Hello I am Aksayan Nirmalan. I am a 2nd year Networking and IT student here at Ontario Tech
+    </p>
+</div>
+
+<div class="video">
+    <h3>Short introduction</h3>
+    <video 
+    class="vidplay"
+    controls width="400" height="250" poster="/Assets/images/poster.jpg" preload="auto"
+                
+    autoplay muted>
+        <source src="/Assets/images/video.mp4" type="video/mp4">
+        <source src="/Assets/images/video.ogv" type="video/ogg">
+    </video>
+    <br><br>
+</div>
+
+
+
+<%- include partials/footer.ejs %>

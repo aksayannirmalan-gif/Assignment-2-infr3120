@@ -1,0 +1,51 @@
+<!--had to seperate header, 
+footer, index and main nav 
+so it is easier to debug-->
+<%- include partials/header.ejs %>
+<!--this ppeice of the code inculdes 
+the other ejs files into this file so
+ they can be accessed by this files name-->
+<%- include partials/main_nav.ejs %>
+
+    <h1><%= title %></h1>
+ 
+
+
+<div id="contact">
+    <form 
+        action="mailto:aksayan.nirmalan@ontariotechu.net" 
+        method="post" 
+        enctype="text/plain" 
+        name="form">
+            <p>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" size="32" placeholder="Enter first name" required>
+            </p>
+            <p>
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" size="32" placeholder="Enter last name" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" id="email" size="32" placeholder="Enter email" required>
+            </p>
+
+            <p>
+                <label for="phonenumber">Phone Number</label>
+                <input type="tel" id="phonenumber" size="32" placeholder="Enter phone number">
+            </p>
+
+            <p>
+                <label for="Comments">Comment</label><br>
+                <textarea name="Comments" id="Comments" cols="40" rows="5" placeholder="Enter comments"></textarea>
+            </p>
+            <br><br>
+            <input type="submit" value="Submit Form">
+
+    </form>
+
+</div>
+
+
+
+<%- include partials/footer.ejs %>

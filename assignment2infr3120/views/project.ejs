@@ -1,0 +1,60 @@
+<!--had to seperate header, 
+footer, index and main nav 
+so it is easier to debug-->
+<%- include partials/header.ejs %>
+<!--this ppeice of the code inculdes 
+the other ejs files into this file so
+ they can be accessed by this files name-->
+<%- include partials/main_nav.ejs %>
+
+    <h1><%= title %></h1>
+
+<div id="projecttitle">
+    <section>
+        <h3>Project 1:Large scale network </h3>
+        <p>
+            In this assignment, me and my group had to make a network topology. 
+           There was a router that acted as the internet and 4 other routers/networks had to 
+            connected to the internet. The main goal was to connect each router
+            to the internet and have them send packets to each other.
+                
+        </p> 
+    </section>
+            
+    <br><br>
+    <section>
+        <h3>Project 2:Medium scale network </h3>
+        <p>In this assignment I had to connect buildings together and create a
+            network between them(no internet). This network is a private network
+            that no one else should have access to
+        </p>
+    </section>
+            
+    <br><br>
+    <section>
+        <h3>Project 3:Buisness management</h3>
+            <p>In this project, my group had to make a company successful by managing inventory and sales.
+                The goal was to make the most money compared to the other groups who are also doing the project.
+                This project also had un-expected events come up such as supply of the product running low and products
+                we had too much of.
+            </p>
+    </section>
+           
+    <br><br>
+    <section>
+        <h3>Project 4:Application</h3>
+            <p>For this coding project, me and my group had to work together to make an application. We decided to
+                build a government filing cabinet. it logs information and keeps it stored in a database which can be edited incase user 
+                information has changed. </p>
+    </section>
+            
+                
+            
+
+</div>
+
+
+
+
+<%- include partials/footer.ejs %>
+ 
