@@ -15,3 +15,7 @@ Font Awesome. (n.d.-b). House filled icon (Classic Solid) - free SVG download. h
 Font Awesome. (n.d.-c). Info filled icon (Classic Solid) - free SVG download. https://fontawesome.com/icons/classic/solid/info 
 
 Font Awesome. (n.d.-d). Phone filled icon (Classic solid) - free SVG download. https://fontawesome.com/icons/classic/solid/phone 
+
+Font Awesome. (n.d.-b). Github brand Logo Icon (brands) - SVG download. https://fontawesome.com/icons/brands/solid/github 
+
+Font Awesome. (n.d.-e). Linkedin brand Logo Icon (brands) - SVG download. https://fontawesome.com/icons/brands/solid/linkedin 
